@@ -51,6 +51,7 @@ body {
 
 .btn-seta:hover {
   background-color: #8351fe;
+  box-shadow:  0 0 1em gold, 0 0 1em red;
 }
 
 .cartao {
