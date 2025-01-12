@@ -51,7 +51,7 @@ body {
 
 .btn-seta:hover {
   background-color: #8351fe;
-  box-shadow:  0 0 1em gold, 0 0 1em red;
+  box-shadow:  0 0 10px #ffd700, 0 0 10px #ff0000;
 }
 
 .cartao {
@@ -62,16 +62,6 @@ body {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
   transition: opacity 0.3s ease-in-out;
-
-  /* 
-    Comentário pra ajudar a entender o flex direction column :) 
-
-    Quando o flex-direction tem valor column
-    o justify-content alinha os filhos verticalmente
-    e o align-items alinha os filhos horizontalmente
-    no caso do flex-direction com valor row é o contrário
-  */
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
